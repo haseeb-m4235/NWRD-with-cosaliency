@@ -1,0 +1,10 @@
+create github repository
+initialise local repository to git "git init"
+to check the remote connection: "git remote -v"
+add remote connection: "git remote add origin https://github.com/haseeb-m4235/ML-Chatbot"
+check status of files: "git status"
+To push files:
+	git add .
+	git commit - m "your message"
+	git push origin master
+TO pull from git to local: git pull origin branch_name
