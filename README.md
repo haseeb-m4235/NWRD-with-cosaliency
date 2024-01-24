@@ -11,7 +11,7 @@ pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --e
 
 
 
-Open nwrd_training.py file
+Open nwrd_training.py file in the gconet_plus directory
 on line 36 change the path to ultimate_duts_cocoseg (The best one).pth file in the repository
 on line 52 change path to current directory + '\\ckpt'
 on line 97 set path to directory containing imgs and masks of 300 by 300 for training rust patches
