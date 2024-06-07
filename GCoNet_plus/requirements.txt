@@ -1,5 +1,0 @@
-opencv-python
-tqdm
-matplotlib
-fvcore
-pytorch_toolbelt
