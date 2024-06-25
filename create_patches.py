@@ -67,7 +67,7 @@ for u in images_paths:
     patches = create_patches(u)
     bgr = cv2.imread(u)
     image_name = u.split('\\')[-1].split('.')[0]
-    os.makedirs(f"images_patches\\{image_name}", exist_ok=True)
+    #os.makedirs(f"images_patches\\{image_name}", exist_ok=True)
     total_count += len(patches)
 
     for count, P in enumerate(patches):
@@ -81,7 +81,7 @@ for u in masks_paths:
     patches = create_patches(u)
     bgr = cv2.imread(u)
     image_name = u.split('\\')[-1].split('.')[0]
-    os.makedirs(f"masks_patches\\{image_name}", exist_ok=True)
+    #os.makedirs(f"masks_patches\\{image_name}", exist_ok=True)
     total_count += len(patches)
 
     for count, P in enumerate(patches):
